@@ -1,29 +1,29 @@
-# Library Management System
+# Java Calculator with JUnit Testing
 
-This Java project is a comprehensive Library Management System designed for managing books in a library setting. It features a user-friendly interface and robust functionalities for both library employees and administrators.
+## Project Overview
 
-## Key Features
+This project is a simple Java-based Calculator that performs basic arithmetic operations. It's designed to demonstrate the use of JUnit for writing and executing test cases. The Calculator class provides static methods for addition, subtraction, multiplication, and division.
 
-- **User Authentication**: Allows library employees and administrators to log in with their credentials.
-- **Book Management**: Enables the addition of new books to the library, including details like title, author, and ISBN.
-- **Checkout and Return System**: Facilitates checking out and returning books, updating their availability status in real time.
-- **View Available Books**: Displays a list of all books currently available in the library.
-- **File Handling**: Utilizes Java I/O to read and write book records to a file, ensuring data persistence.
-- **Member Management**: Supports the addition of new library members, enhancing the system's utility for real-world applications.
+## Java Features
 
-## Technologies Used
+- **Static Methods**: Utilizes static methods for basic arithmetic operations.
+- **Exception Handling**: Implements basic error handling, especially for division by zero scenarios.
+- **Modular Code Structure**: Follows best practices in code organization for maintainability and readability.
 
-- Java: Core language for system development.
-- Java I/O: For file handling operations.
-- Serialization: To persist the state of objects.
-- Exception Handling: Incorporates Java's exception handling for robust error management.
-- Object-Oriented Programming: Utilizes Java OOP principles for clear, modular code structure.
-- Java Collections: Uses `ArrayList` for efficient management of book and member data.
+## JUnit Testing
 
+The project includes a comprehensive suite of JUnit tests to validate the functionality of the Calculator class.
 
-## How to Run
+### Key Testing Features
 
-To run the program, simply clone this repository and execute the `Main` class. Ensure Java is installed on your machine.
+- **assertEquals Method**: Employs `assertEquals` from JUnit to ensure the expected output matches the actual results from Calculator methods.
+- **assertTrue Method**: Uses `assertTrue` to validate conditions in certain test cases.
+- **Test Coverage**: Each arithmetic operation (add, subtract, multiply, divide) is covered with multiple test cases to ensure robustness.
+
+### Running Tests
+
+To run the tests, simply clone the repository and execute the `CalculatorTest` class in an environment with JUnit setup.
+
 
 ## Author
 Made by Michal Frost.
